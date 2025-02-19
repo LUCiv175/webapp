@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.intro{
+  top: 20%;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  background-color: #0000009e;
+  padding: 50px;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 40px;
+  z-index: 100000;
+
+}
+
+.intro-titolo{
+  font-family: "Jim Nightshade", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FF7D00;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+
+}
+.intro-descrizione{
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F0F7EE;
+  margin-bottom: 20px;
+
+}
+
+.bottone-prenota button{
+  background-color: #320D6D;
+  color: #F0F7EE;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: "Inter", serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 10px 40px;
+  transition: all 0.3s ease;
+  border: none;
+}
+.logo-intro img{
+  height: 60px;
 }
